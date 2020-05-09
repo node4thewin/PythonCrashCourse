@@ -35,3 +35,19 @@ shoes = ['nike', 'adidas', 'vibrum', 'converse', 'rainbow']
 last_owned_shoe = shoes.pop()
 print(f'The last shoe I wore was a {last_owned_shoe.title()}.')
 
+# POPPING ITEMS FROM ANY POSITIONS IN A LIST
+
+# You can use pop() to remove an item from any position in a list by including the index of
+# the item you want to remove in parentheses.
+
+shoes = ['nike', 'adidas', 'vibrum', 'converse', 'rainbow']
+first_owned = shoes.pop(0)
+print(f"The first show I owned was a {first_owned.title()}.")
+
+# You can see that we "popped" the first motorcycle in the list "first_owned". Then we print
+# a message about that shoe below. The output was a simple message.
+
+# Remember that eache time you use pop(), the item you work with is no longer stored in the
+# list. 
+
+print(shoes)
