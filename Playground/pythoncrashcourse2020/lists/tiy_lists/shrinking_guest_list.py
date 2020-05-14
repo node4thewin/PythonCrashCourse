@@ -39,3 +39,9 @@ print(guest_list)
 print(f"Not to worry {guest_list[0].title()}. You are one of the two most important people in the world to me...and for that reason you are cordially invited to dinner with me!")
 print(f"Not to worry {guest_list[1].title()}. You are one of the two most important people in the world to me...and for that reason you are cordially invited to dinner with me!")
 
+# Use del to remove the last two name from your list, so you have an empty list. Print your list
+# to make sure you actually have an empty list at the end of your program.
+
+del guest_list[0]
+del guest_list[0]
+print(guest_list)
