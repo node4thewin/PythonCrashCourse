@@ -13,3 +13,29 @@ print(message)
 # in your list. Each time you pop a name from your list, print a message to that person letting
 # them know you're sorry you can't invite them to dinner.
 
+uninvited_guest = guest_list.pop(0)
+print(f"My apologies {uninvited_guest.title()} but I have to rescind your invitation to dinner because of limited seating. Please excuse this aggregious resignation. Thank you and until next time, Andrew.")
+
+uninvited_guest = guest_list.pop(0)
+print(f"My apologies {uninvited_guest.title()} but I have to rescind your invitation to dinner because of limited seating. Please excuse this aggregious resignation. Thank you and until next time, Andrew.")
+
+uninvited_guest = guest_list.pop(0)
+print(f"My apologies {uninvited_guest.title()} but I have to rescind your invitation to dinner because of limited seating. Please excuse this aggregious resignation. Thank you and until next time, Andrew.")
+
+uninvited_guest = guest_list.pop(1)
+print(f"My apologies {uninvited_guest.title()} but I have to rescind your invitation to dinner because of limited seating. Please excuse this aggregious resignation. Thank you and until next time, Andrew.")
+
+uninvited_guest = guest_list.pop(1)
+print(f"My apologies {uninvited_guest.title()} but I have to rescind your invitation to dinner because of limited seating. Please excuse this aggregious resignation. Thank you and until next time, Andrew.")
+
+uninvited_guest = guest_list.pop(2)
+print(f"My apologies {uninvited_guest.title()} but I have to rescind your invitation to dinner because of limited seating. Please excuse this aggregious resignation. Thank you and until next time, Andrew.")
+
+print(guest_list)
+
+# Print a message to each of the two people still on your list, letting them knwo you're
+# still invited.
+
+print(f"Not to worry {guest_list[0].title()}. You are one of the two most important people in the world to me...and for that reason you are cordially invited to dinner with me!")
+print(f"Not to worry {guest_list[1].title()}. You are one of the two most important people in the world to me...and for that reason you are cordially invited to dinner with me!")
+
