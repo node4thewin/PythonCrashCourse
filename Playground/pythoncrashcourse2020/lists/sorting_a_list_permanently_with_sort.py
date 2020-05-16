@@ -30,3 +30,7 @@ print(potential_cars)
 potential_cars.sort(reverse=True)
 print(potential_cars)
 
+# AGAIN the order of the list is permanently changed
+
+# SEE "sorting_a_list_temporarily_with_sorted.py" to see how to maintain the original order of the
+# list.
