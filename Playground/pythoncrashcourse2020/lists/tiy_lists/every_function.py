@@ -59,14 +59,11 @@ print("\n\tREMOVING AN ITEM USING THE del STATEMENT")
 print("\nRemoving Cheri:")
 del family_members[0]
 print(family_members)
-print("\nRemoving Brian:")
-del family_members[0]
-print(family_members)
 
 # REMOVING AN ITEM USING THE pop() METHOD
 print("\n\tREMOVING AN ITEM USING THE pop() METHOD")
 print("\nRemoving Alex with pop():")
-popped_family_member = family_members.pop(0)
+popped_family_member = family_members.pop(1)
 print(family_members)
 print("\nPrinting Alex using pop() List:")
 print(popped_family_member.title())
