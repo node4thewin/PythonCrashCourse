@@ -70,5 +70,58 @@ print(popped_family_member.title())
 
 # POPPING ITEMS FROM ANY POSITION ON THE LIST
 print("\n\tPOPPING ITEMS FROM ANY POSITION ON THE LIST")
+print("\nPopping Helen from the List (7, aka 8th on the List)")
+popped_family_member = family_members.pop(7)
+print(f"{popped_family_member.title()} was popped.")
 
+# REMOVING AN ITEM BY VALUE (NAME)
+print("\n\tREMOVING AN ITEM BY VALUE (NAME)\n")
+print(family_members)
+family_members.remove('otis barron')
+print("\nThis next list should show 'otis barron' removed.")
+print(family_members)
 
+# USING REMOVE() METHOD TO WORK WITH A VALUE THAT'S BEEN REMOVED
+print("\n\tUSING REMOVE() METHOD TO WORK WITH A VALUE THAT'S BEEN REMOVED")
+print("This should show that we can still work with a value even when it's been removed. Using an example removing Uncle Brian.")
+too_mean = 'brian mendelsohn'
+family_members.remove(too_mean)
+print(family_members)
+print(f"\nI think that {too_mean.title()} is too mean for our list.")
+
+# ORGANIZING A LIST
+print("\nORGANIZING A LIST")
+
+# SORTING A LIST PERMANENTLY WITH THE SORT() METHOD
+print("\n\tSORTING A LIST PERMANENTLY WITH THE SORT() METHOD")
+print("\nOriginal unsorted list.\n")
+print(family_members)
+print("\nSorted List of family members.\n")
+family_members.sort()
+print(family_members)
+
+# REVERSE SORTING A LIST PERMANENTLY WITH THE SORT() METHOD
+print("\n\tREVERSE SORTING A LIST PERMANENTLY WITH THE SORT() METHOD\n")
+family_members.sort(reverse=True)
+print(family_members)
+
+# SORTING A LIST TEMPORARILY WITH THE SORTED() FUNCTION
+print("\n\tSORTING A LIST TEMPORARILY WITH THE SORTED() FUNCTION")
+print("\nHere is the original list.\n")
+print(family_members)
+print("\nHere is the sorted list.\n")
+print(sorted(family_members))
+print("\nHere is the original list again.\n")
+print(family_members)
+
+# PRINTING A LIST IN REVERSE ORDER
+print("\n\tPRINTING A LIST IN REVERSE ORDER")
+print("\nList of family members in original order.\n")
+print(family_members)
+print("\nList of family members in reverse order.\n")
+family_members.reverse()
+print(family_members)
+
+# FINDING/PRINTING THE LENGTH OF THE LIST
+print("\n\tFINDING/PRINTING THE LENGTH OF THE LIST")
+print(f"\nThere are {len(family_members)} family members left on the list.")

@@ -8,5 +8,4 @@ print("\nList of Dinner Guests:")
 print(dinner_guests)
 len(dinner_guests)
 
-print("\nNumber of Dinner Guests:")
-print(f"{len(dinner_guests)}")
+print(f"\nNumber of Dinner Guests: {len(dinner_guests)}")
