@@ -1,2 +1,8 @@
 # PythonCrashCourse
- Projects from Python Crash Course 2.0
+The following are projects from Python Crash Course 2nd Edition.
+
+Website for Python Crash Course 2nd Edition
+
+https://ehmatthes.github.io/pcc_2e/
+
+https://ehmatthes.github.io/pcc_2e/solutions/solutions/
