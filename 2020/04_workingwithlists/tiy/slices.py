@@ -13,4 +13,4 @@ print(pizzas[1:4])
 
 # Print the message "The last three items in the list are:". Use a slice to print three items from the middle of the list.
 print("\nThe last three items in the list are:")
-print(pizzas[:-4])
+print(pizzas[-3:])
