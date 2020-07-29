@@ -1,0 +1,3 @@
+# USING 'if' STATEMENTS WITH LISTS
+
+You can do some interesting work when you combine 'lists' and 'if' statements. You can watch for special values that need to be treated differently than other values in the list. You can manage changing conditions efficiently, such as the availability of certain items in a restaurant throughout a shift. You can also begin to prove that your code works as you expect it to in all possible situations.
