@@ -13,11 +13,11 @@ glossary = {
 }
 
 print_def = glossary['print'].title()
-dictionaries = glossary['dictionaries'].title()
+diction_def = glossary['dictionaries'].title()
 list_def = glossary['list'].title()
 
 print(f"Print:  \n{print_def}")
-print(f"\nDictionaries:  \n{dictionaries}")
+print(f"\nDictionaries:  \n{diction_def}")
 print(f"\nList:  \n{list_def}")
 
 # CORRECT VERSION (or related to Solutions Website)
