@@ -52,7 +52,7 @@ pets.append(pet)
 pet = {
   'name': 'zorro',
   'owner': 'mike sr.',
-  'breed': 'shitzu'
+  'breed': 'shih-tzu'
 }
 pets.append(pet)
 
@@ -66,7 +66,7 @@ pets.append(pet)
 pet = {
   'name': 'joey',
   'owner': 'susan',
-  'breed': 'mini shitzu'
+  'breed': 'mini shih-tzu'
 }
 pets.append(pet)
 
@@ -75,5 +75,4 @@ for pet in pets:
   owner = f"{pet['owner'].title()}"
   breed = f"{pet['breed'].title()}"
 
-  print(f"{name} is a {breed} owned by {owner}!")
-
+  print(f"{name} is a {breed} owned by {owner}!\n")
