@@ -1,0 +1,4 @@
+# Using a 'while' Loop with Lists and Dictionaries
+So far, we've worked with only one piece of user information at a time. We received the user's input and then printed the input or a response to it. The next time through the 'while' loop, we'd receive another input value and respond to that. But to keep track of many users and pieces of information, we'll need to use lists and dictionaries with our 'while' loops.
+
+A 'for' loop is effective for looping through a list, but you shouldn't modify a list inside a 'for' loop because Python will have trouble keeping track of the items in the list. To modify a list as you work through it, use a 'while' loop. Using 'while' loop with lists and dictionaries allows you to collect, store, and organize lots of input to examine and report on later.
