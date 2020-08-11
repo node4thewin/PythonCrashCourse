@@ -2,3 +2,8 @@
 So far, we've worked with only one piece of user information at a time. We received the user's input and then printed the input or a response to it. The next time through the 'while' loop, we'd receive another input value and respond to that. But to keep track of many users and pieces of information, we'll need to use lists and dictionaries with our 'while' loops.
 
 A 'for' loop is effective for looping through a list, but you shouldn't modify a list inside a 'for' loop because Python will have trouble keeping track of the items in the list. To modify a list as you work through it, use a 'while' loop. Using 'while' loop with lists and dictionaries allows you to collect, store, and organize lots of input to examine and report on later.
+
+# Summary
+In this chapter you learned how to use 'input()' to allow users to provide their own information in your programs. You learned how to work with both text and numerical input and how to use 'while' loops to make your programs run as long as your users want them to. You saw several ways to control the flow of a 'while' loop by setting an 'active' flag, using the 'break' statement, and using the 'continue' statement. You learned how to use a 'while loop to move items from one list to another and how to remove all instances of a value from a list. You also learned how 'while' loops can be used with dictionaries.
+
+In Chapter 8 you'll learn about 'functions'. Functions allow you to break your programs into small parts, each of which does one specific job. You can call a function as many times as you want, and you can store your functions in separate files. By using funtions you'll be able to write more efficient code that's easier to troubleshoot and maintain and that can be reused in many different programs.

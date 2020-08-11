@@ -2,6 +2,7 @@
 
 # You can prompt for as much input as you need in each pass through a 'while' loop. Let's make a polling program in which each pass through the loop prompts for the participant's name and response. We'll store the data we gather in a dictionary, because we want to connect each response with a particular user:
 
+# Empty dictionary
 responses = {}
 
 # Set a flag to indicate that polling is active.
@@ -28,3 +29,7 @@ while polling_active:
 print("\n--- Poll Results ---")
 for name, response in responses.items():
   print(f"{name} would like to climb {response}.")
+
+# The program first defines an empty dictionary (responses) and sets a flag (polling_active) to indicate that polling is 'active'. As long as 'polling_active' is True, Python will run the code in the 'while' loop.
+
+# Within the loop, the user is prompted to enter their name and a mountain they'd like to climb (line 12). That information is stored in the 'responses' dictionary (line 17), and the user is asked whether or not to keep the poll running (line 20). If they enter yes, the program enters the 'while' loop again. If they enter 'n' or 'no', the program enters the 'while' loop again. If they enter 'no', the 'polling_active' flag is set to 'False', the 'while' loop stops running, and the final code block at line 30 displays the results of the poll.
