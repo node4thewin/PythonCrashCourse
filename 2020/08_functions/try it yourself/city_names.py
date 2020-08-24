@@ -17,7 +17,7 @@ print(place)
 place = city_country('Banff', 'Canada')
 print(place)
 
-# Solution from Website
+# Solution from PCC Website
 
 def city_country2(city, country):
   """Return a string like 'Santiago, Chile'."""
