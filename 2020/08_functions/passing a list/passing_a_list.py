@@ -6,4 +6,13 @@
 
 def greet_users(names):
   """Print a simple greeting to each user in the list."""
-  
+  for name in names:
+    msg = f"Hello, {name.title()}!"
+    print(msg)
+
+usernames = ['hannah', 'ty', 'margo']
+greet_users(usernames)
+
+# We define 'greet_users()' so it expects a list of names, which it assigns to the parameter 'names'. The function loops through a list it receives and prints a greeting to each user. At line 13 we define list of users and then pass the list 'usernames' to 'greet_users()' in our function call.
+
+# This is the output we wanted. Every user sees a personalized greeting, and you can call the function any time you want to greet a specific set of users.
