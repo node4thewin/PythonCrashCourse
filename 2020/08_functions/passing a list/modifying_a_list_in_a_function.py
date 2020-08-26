@@ -6,7 +6,7 @@
 
 # Start with some designs that need to be printed.
 # unprinted_designs = ['phone case', 'robot pendant', 'dodocahedron']
-# completed_models = []
+# completed_models = [] # this is the empty list, when completed they should be filled
 
 # # Simulate printing each design, until none are left.
 # # Move each design to 'completed_models' after printing.

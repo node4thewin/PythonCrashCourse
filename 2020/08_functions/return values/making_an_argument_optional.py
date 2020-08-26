@@ -16,7 +16,7 @@
 
 # But the middle names aren't always needed and this function as written would not work if you tried to call it with only a first and a last name. To make the middle name optional, we can give the 'middle_name' argument an empty default value and ignore the argument unless the user provides a value. To make 'get_formatted_name()' work without a middle name, we set the default value of 'middle_name' to an empty string and move it to the end of the list of parameters:
 
-def get_formatted_name(first_name, last_name, middle_name=''):
+def get_formatted_name(first_name, last_name, middle_name=''): # middle_name='' is considered an empty string...so it would default to 'False' unless there was a middle name included.
   """Return a full name, neatly formatted."""
   if middle_name:
     full_name = f"{first_name} {middle_name} {last_name}"
@@ -27,7 +27,7 @@ def get_formatted_name(first_name, last_name, middle_name=''):
 musician = get_formatted_name('jimi', 'hendrix')
 print(musician)
 
-musician = get_formatted_name('john', 'hooker', 'lee')
+musician = get_formatted_name('john', 'hooker', 'lee') # this is weird because we must put the middle name last to that the positional arguments are correct.
 print(musician)
 
 # In this example, the name is built from three possible parts. Because there's always a first and last name, these parameters are listed first in the function's definition. The middle name is optional, so it's listed last in the definition, and its default value is an empty string (line 19).

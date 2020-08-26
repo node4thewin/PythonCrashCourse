@@ -7,4 +7,4 @@ def favorite_book(title):
   msg = f"My favorite book is {title}."
   print(msg)
   
-favorite_book('Alice in Wonderland')
+favorite_book('Alice in Wonderland') # this is an argument inside the function
