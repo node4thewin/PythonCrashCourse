@@ -11,3 +11,6 @@ The variable 'username' in the definition of 'greet_user()' is an example of a '
 
 # NOTE
 People sometimes speak of arguments and parameters interchangeably. Don't be surprised if you see the variables in a function definition referred to as arguments or variables in a function call refered to as parameters.
+
+# Solutions to "Try It Yourself":
+https://ehmatthes.github.io/pcc_2e/solutions/solutions/
