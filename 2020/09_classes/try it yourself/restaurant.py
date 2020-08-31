@@ -4,7 +4,7 @@
 
 # Make an instance called 'restaurant' from your class. Print the two attributes individually, and then call both methods.
 
-class Restaurant():
+class Restaurant:
   """Indicate a Restaurant is Open or Closed."""
 
   def __init__(self, name, cuisine):
