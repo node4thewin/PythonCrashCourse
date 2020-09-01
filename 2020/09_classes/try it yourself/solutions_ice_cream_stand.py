@@ -29,7 +29,7 @@ class Restaurant():
 class IceCreamStand(Restaurant):
     """Represent an ice cream stand."""
 
-    def __init__(self, name, cuisine_type='ice_cream'):
+    def __init__(self, name, cuisine_type='ice cream'):
         """Initialize an ice cream stand."""
         super().__init__(name, cuisine_type)
         self.flavors = []
