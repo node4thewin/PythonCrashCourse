@@ -1,4 +1,4 @@
-# 9-7 Admin
+# 9-7 Admin and 9-8 Privileges
 
 # An administrator is a special kind of user. Write a class called 'Admin' that inherits from the from the 'User' class you wrote in Exercise 9-3 (page 162) or Exercise 9-5 (page 167). Add an attribute, 'privileges', that stores a list of strings like "can add post", "can delete post", "can ban user", and so on. Write a method called 'show_privileges()' that lists the administrator's set of privileges. Create an instance of 'Admin', and call you method.
 
@@ -45,10 +45,11 @@ class Admin(User):
     """Initialize the admin."""
     super().__init__(first_name, last_name, username, age)
 
+    # Initialize an empty set of privileges.
     self.privileges = Privileges()
 
 class Privileges:
-  """A class to store privileges."""
+  """A class to store an admin's privileges."""
 
   def __init__(self, privileges=[]):
     "Initialize list of privileges."""
