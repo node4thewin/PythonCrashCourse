@@ -26,3 +26,5 @@ print(my_beetle.get_descriptive_name())
 
 my_tesla = ElectricCar('tesla', 'roadster', 2020)
 print(my_tesla.get_descriptive_name())
+
+# At line 21 we import 'Car' from its module, and 'ElectricCar' from its module. We then create one regular car and one electric car. Both kinds of cars are created correctly.
