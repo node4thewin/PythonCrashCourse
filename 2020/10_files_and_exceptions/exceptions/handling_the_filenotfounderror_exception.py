@@ -20,3 +20,7 @@ try:
     contents = f.read()
 except FileNotFoundError:
   print(f"Sorry the file '{filename}' does not exist.")
+
+# In this example, the code in the 'try' block produces a 'FileNotFoundError', so Python looks for an 'except' block that matches that error. Python then runs the code in that block, and the result is a friendly error message instead of a traceback.
+
+# The program has nothing more to do if the file doesn't exist, so the error-handling code doesn't add much to this program. Let's build on this example and see how exception handling can help when you're working with more than one file.
