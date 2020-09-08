@@ -57,5 +57,4 @@ greet_user()
 
 # The new function 'get_stored_username()' has clear purpose, as stated in the docstring (line 32). This function retrieves a stored username and returns the username if it finds one. If the file 'username.json' doesn't exist, the function returns 'None' (line 38). This is good practice: a function should either return the value you're expecting, or it should return 'None'. This allows us to perform a single test with the return value of the function. At line 47 we print a welcome back message to the user if the attempt to retrieve a username was successful, and if it doesn't, we prompt for a new username.
 
-# We should factore one more black of code out of 'greet_user()' If the username doesn't exist, we should move the code that prompts for a new username to a function dedicated to that purpose:
-
+# We should factor one more black of code out of 'greet_user()' If the username doesn't exist, we should move the code that prompts for a new username to a function dedicated to that purpose:
