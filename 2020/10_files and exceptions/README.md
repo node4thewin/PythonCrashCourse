@@ -1,0 +1,11 @@
+# Files and Exceptions
+
+Now that you've mastered the basic skills you need to write organized programs that are easy to use, it's time to think about making your programs even more relevant and usable. In this chapter you'll learn to work with files so your programs can quickly analyze lots of data. You'll learn to handle errors so your programs don't crash when they encounter unexpected situations. You'll learn about 'exceptions', which are special objects Python creates to manage errors that arise while a program is running. You'll also learn about the 'json' module, which allows you to save user data so it isn't lost when your program stops running.
+
+Learning to work with files and save data will make your programs easier for people to use. Users will be able to choose what data to enter and easier for people to use. Users will be able to choose what data to enter and when to enter it. People can run your program, do some work, and then close the program and pick up where they left off later. Learning to handle exceptions will help you deal with situations in which files don't exist and deal with other programs that can cause your programs to crash. This will make your programs more robust when they encounter bad data, whether it comes from innocent mistakes or from malicious attempts to break you programs. With the skills you'll learn in this chapter, you'll make your programs more applicable, usable, and stable.
+
+# Summary
+
+In this chapter, you learned how to work with files. You learned to read an entire file at once and read through a file's contents one line at a time. You learned to write to a file and append text onto the end of a file. You read about exceptions and how to handle the exceptions you're likely to see in your programs. Finally, you learned how to store Python data structures so you can save information your users provide, preventing them from havin to start over each time they run a program.
+
+In Chapter 11 you'll learn efficient ways to test your code. This will help you trust that the code you develop is correct, and it will help you identify bugs that are introduced as you continue to build on the programs you've written.
