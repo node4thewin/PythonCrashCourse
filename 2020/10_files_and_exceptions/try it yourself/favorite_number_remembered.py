@@ -24,7 +24,7 @@ def load_favorite_number():
   else:
     return fav_num
 
-def read_favorite_number():
+def favorite_number():
   favorite_number = load_favorite_number()
   if favorite_number: # this needs True, so None would make it stop
     print(f"We found it! Your favorite number is {favorite_number}.")
@@ -32,4 +32,4 @@ def read_favorite_number():
     favorite_number = store_favorite_number()
     print("We'll remember your favorite number next time!")
 
-read_favorite_number()
+favorite_number()
