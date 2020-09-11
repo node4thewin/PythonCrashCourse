@@ -4,3 +4,11 @@
 
 # Table 11-1 describes six commonly used assert methods. With these methods you can verify that returned values equal or don't equal expected values, that values are 'True' or 'False', and that values are 'in' or 'not in' a given list. You can use these methods only in a class that inherits from 'unittest.TestCase', so let's look at how we can use one of these methods in the context of testing an actual class.
 
+# Method                      Use
+
+# assertEqual(a, b)           Verify that a == b
+# assertNotEqual(a, b)        Verify that a != b
+# assertTrue(x)               Verify that x is True
+# assertFalse(x)              Verify that x is False
+# assertIn(item, list)        Verify that 'item' is in 'list'
+# assertNotIn(item, list)     Verify that 'item' is not in 'list'
