@@ -52,3 +52,9 @@ class TestAnonymousSurvey(unittest.TestCase):
 
 if __name__ == '__main__':
   unittest.main()
+
+# We call the new method 'test_store_three_responses()'. We create the survey object just like we did in 'test_store_single_response()'. We define a list containing three different responses (line 46), and then we call 'store_response()' for each of these responses. Once the responses have been stores, we write another loop and assert that each response is now in 'my_survey.responses' (line 50).
+
+# When we run 'test_survey.py' again, both tests (for a single response and three responses) pass...
+
+# This works perfectly. However, these tests are a bit repetitive, so we'll use another feature of unittest to make them more efficient.
