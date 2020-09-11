@@ -1,0 +1,15 @@
+# Testing Your Code
+
+When you write a function or a class, you can also write tests for that code. Testing proves that your code works as it's supposed to in response to all the input types it's designed to receive. When you write tests, you can be confident that your code will work correctly as more people begin to use your programs. You'll also be able to test new code as you add it to make sure your changes don't break your program's existing behavior. Every programmer makes mistakes, so every programmer must test their code often, catching problems before users encounter them.
+
+In this chapter you'll learn to test your code using tools in Python's 'unittest' module. You'll learn to build a test case and check that a set of inputs results in the output you want. You'll see what a passing test looks like and what a failing test looks like, and you'll learn how a failing test can improve your code. You'll learn to test functions and classes, and you'll start to understand how many tests to write for a project.
+
+# Summary
+
+In this chapter you learned to write tests for functions and classes using tools in the 'unittest' module. You learned to write a class that inherits from 'unittest.TestCase', and you learned to write test methods that verify specific behaviors your functions and classes should exhibit. You learned to use the 'setUp()' method to efficiently create instances and attributes from your classes that can be used in all the test methods for a class.
+
+Testing is an important topic that many beginners don't learn. You don't have to write tests for all the simple projects you try as a beginner. But as soon as you start to work on projects that involve significant development effort, you should test the critical behaviors of your functions and classes. You'll be more confident that new work on your project won't break the parts that work, and this will give you the freedom to make improvements to your code. If you accidentallyy break existing functionality, you'll know right away, so you can still fix the problem easily. Responding to a failed test that you ran is much easier than responding to a bug report from an unhappy user.
+
+Other programmers respect your projects more if you include some initial tests. They'll feel more comfortable experimenting with your code and be more willing to work with you on projects. If you want to contribute to a project that other programmers are working on, you'll be expected to show that your code passes existing tests and you'll usually be expected to write tests for new behavior you introduce to the project.
+
+Play around with tests to become familiar with the process of testing your code. Write tests for the most critical behaviors of your functions and classes, but don't aim for full coverage in early projects unless you have a specific reason to do so.
