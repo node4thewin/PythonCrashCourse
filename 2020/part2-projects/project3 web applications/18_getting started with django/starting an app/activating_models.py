@@ -29,11 +29,18 @@
 
 # Next, we need to tell Django to modify the database so it can store information related to the model 'Topic'. From the terminal, run the following command:
 
+# (ll_env)learning_log$ python manage.py makemigrations learning_logs # Migrations for 'learning_logs':
+#  learning_logs/migrations/0001_initial.py
+#    - Create model Topic
+# (ll_env)learning_log$
+
+# The command 'makemigrations' tells Django to figure out how to modify the database so it can store the data associated with any new models we've defined. The output here shows that Django has created a migration file called '0001_initial.py'. This migration will create a table for the model 'Topic' in the database.
+
 # (ll_env)learning_log$ python manage.py migrate
 # Operations to perform:
-# Apply all migrations: admin, auth, contenttypes, learning_logs, sessions 
+#   Apply all migrations: admin, auth, contenttypes, learning_logs, sessions 
 # Running migrations:
-# Applying learning_logs.0001_initial... OK
+#   Applying learning_logs.0001_initial... OK
 
 # Most of the output from this command is identical to the first time we issued the 'migrate' command. The line we need to check appears at line 36, where Django confirms that the migration for 'learning_logs' worked OK.
 
