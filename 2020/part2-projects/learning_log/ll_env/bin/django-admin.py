@@ -1,4 +1,4 @@
-#!/Users/andrewharvey/Github/PythonCrashCourse/2020/part2-projects/learning_log/ll_env/bin/python3
+#!/Users/andrewharvey/GitHub/PythonCrashCourse/2020/part2-projects/learning_log/ll_env/bin/python3
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
