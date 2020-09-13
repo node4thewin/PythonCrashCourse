@@ -2,4 +2,8 @@
 
 # Django allows you to create a 'superuser', a user who has all privileges available on the site. A user's 'privileges' control the actions that user can take. The most restrictive privilege settings allow a user to only read public information on the site. Registered users typically have the privlege of reading their own private data and some selected information available only to members. To effectively administer a web application, the site owner usually needs access to all information stored on the site. A good administrator is careful with their users' sensitive information, because users put a lot of trust into the apps they access.
 
-# To create a superuser in Django, enter the following command and respond to the prompts:
+# To create a superuser in Django, enter the following command and respond to the prompts.
+
+# When you issue the command 'createsuperuser', Django prompts you to enter a username for the superuse. Here I'm using 'll_admin', but you can enter any username you want. You can enter an email addressif you want or just leave this field blank. You'll need to enter your password twice.
+
+# NOTE - Some sensitive information can be hidden from a site's administrators. For example, Django doesn't store the password you enter; instead, it stores a string derived from the password, called a 'hash'. Each time you enter your password, Django hashes your entry and compares it to the stored hash. If the two hashes match, you're authenticated. By requiring the hashes to match, if the attacker gains access to a site's database, they'll be able to read its stored hashes but not the password. When a site is set up properly, it's almost impossible to get the original password from the hashes.
