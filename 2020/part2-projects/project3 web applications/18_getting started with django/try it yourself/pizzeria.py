@@ -6,15 +6,20 @@
 
 # class Pizza(models.Model):
 #   """Define a model named Pizza."""
-#   pizza = models.CharField(max_length=30)
+#   text = models.CharField(max_length=30)
 
 #   def __str__(self):
 #     """Return a string representation of the model."""
 #     return self.text
 
 # class Topping(models.Model):
-#   """Define a model named Toppings."""
-#   toppings = models.CharField(max_length=30)
+#   """Toppings for Pizza, with Foreign Key created."""
+#   pizza = models.ForeignKey(Pizza, on_delete=models.CASCADE)
+#   text = models.TextField(max_length=100)
+#   date_added = models.DateTimeField(auto_now_add=True)
+
+#   class Meta:
+#     verbose_name_plural = 'toppings'
 
 #   def __str__(self):
 #     """Return a string representation of Toppings."""
